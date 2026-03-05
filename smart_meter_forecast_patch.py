@@ -9,7 +9,7 @@ st.set_page_config(layout="wide")
 # Paths
 # ------------------------------------------------
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parent
 
 HIST_PATH = ROOT / "clean_50_meters_with_fft_clusters_named.parquet"
 
